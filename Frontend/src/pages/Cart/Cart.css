@@ -1,0 +1,131 @@
+.full-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+}
+
+
+
+
+.cart-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+}
+.cart-container h2 {
+    color:rgb(253, 101, 20);
+    margin-bottom: 15px;
+}
+.cart-header, .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(223, 149, 12);
+}
+.cart-header {
+    font-weight: bold;
+    border-bottom: 2px solid rgb(212, 117, 7);
+}
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cart-details {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    
+}
+.cart-image {
+    flex: 0.5;
+    text-align: center;
+}
+.cart-title {
+    flex: 1;
+    text-align: center;
+}
+.cart-quantity, .cart-price, .cart-total,.cart-remove {
+    flex: 1;
+    text-align: center;
+}
+
+.cart-total-container {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: right;
+   color: white;
+    padding-right: 20px;
+    
+}
+.cart-subtotal-container,.cart-cfee-container{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+   color: white;
+}
+
+.cart-quantity-container {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 20px;
+    color: white;
+}
+.checkout-button {
+   
+
+    background:white;
+    color: rgb(253, 101, 20);
+    border: none;
+    
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: auto;
+    width: 90%;
+}
+.checkout-button:hover {
+    background: rgb(253, 101, 20);
+    color: white;
+}
+
+.cart-item .cart-remove{
+    cursor: pointer;
+}
+
+.cart-details{
+    padding: 20px;
+    margin:40px auto;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(253, 101, 20);
+}
+
+.cart-details h2{
+    color: black;
+    text-decoration: underline;
+    font-size: 38px;
+}

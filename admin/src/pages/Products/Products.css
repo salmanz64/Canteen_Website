@@ -1,0 +1,94 @@
+.manage-menu-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #f3f4f6;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 24px;
+    
+}
+
+.add-item-form {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-item-form .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+}
+
+.add-item-form .add-item-btn {
+    background-color: #2563eb;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-item-form .add-item-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.menu-table {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-table .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+.menu-table .table th,
+.menu-table .table td {
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.menu-table .table-header {
+    background-color: #f3f4f6;
+}
+
+.menu-table .delete-btn {
+    color: #e11d48;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: color 0.3s;
+}
+
+.menu-table .delete-btn:hover {
+    color: #9b1c1c;
+}
+.description{
+    padding: 10px;
+}
+.add-item-form img{
+    width: 80px;
+    height: 80px;
+}
+.table img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border-radius: 10px;
+}

@@ -1,0 +1,105 @@
+
+
+
+
+/* Admin Panel */
+.admin-panel {
+    width: 90%;
+    margin: 0 auto;
+
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar */
+.search-container {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+#searchBox {
+    padding: 8px;
+    width: 250px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+/* Orders Table */
+.orders-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+/* Token Number */
+td:first-child {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Row Hover Effect */
+tr {
+    transition: background 0.3s, transform 0.2s;
+}
+
+tr:hover {
+    background: #f1f8ff;
+    transform: scale(1.02);
+}
+
+/* Dropdown Styling */
+select {
+    padding: 6px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Button Styling */
+button {
+    padding: 8px 12px;
+    background: rgb(194, 186, 186);
+    color: rgb(3, 3, 3);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: darkred;
+    transform: scale(1.1);
+}
+
+/* Cool Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

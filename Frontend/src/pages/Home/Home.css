@@ -1,0 +1,87 @@
+.category-sections {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.category-sections button {
+    --bg: white;
+    --hover-bg: rgb(253, 101, 20);
+    --hover-text: white;
+    
+    padding: 15px 20px;
+    font-size: 18px;
+    
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    min-height: 80px;
+    
+    color: black;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    
+    background: var(--bg);
+    transition: 0.2s;
+}
+.category-sections button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .category-sections button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+.menu-icon{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*card Details */
+
+
+
+h2{
+  padding-top: 20px;
+  margin-left: 25px;
+}
+
+.category-sections .active{
+  background-color: rgb(253, 101, 20);
+  color: white;
+  
+}
+
+
+
+
+
+

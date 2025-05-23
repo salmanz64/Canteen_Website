@@ -1,0 +1,113 @@
+
+.Menu-Items{
+    width: 100%;
+    height: 500px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+  
+  }
+  
+  .Item-Card{
+    width: auto;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:10px 10px 10px 10px;
+    
+  
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  
+  
+  
+  
+      --bg: white;
+      --hover-bg: rgb(253, 101, 20);
+      --hover-text: white;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      color: black;
+      cursor: pointer;
+      border: 1px solid var(--bg);
+      background: var(--bg);
+      transition: 0.2s;
+  
+  }
+  
+  
+  .Item-Card:hover{
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  img{
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .image-and-title{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    
+  }
+  
+  .price-and-inc{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+  }
+  .price-and-inc p{
+    font-size: 25px;
+    font-weight: bold;
+    
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  
+  .card__counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+    background: #F7F7F7;
+    border-radius: 50px;
+  }
+  
+  .card__counter-score, .card__btn {
+    font-weight: 700;
+    font-size: 22px;
+    
+  }
+  .card__counter-score, .card__btn :hover{
+    color: black;
+    
+  }
+  .card__btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    background: rgb(253, 101, 20);
+    color: white;
+  }
+  
+  
+  
+  .card__btn:hover{
+    background-color: rgb(253, 101, 20);
+  }
