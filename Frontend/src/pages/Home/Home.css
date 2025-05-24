@@ -79,7 +79,46 @@ h2{
   color: white;
   
 }
+  @media (max-width:1024px) {
 
+    .category-sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.category-sections button {
+   
+    
+    padding: 15px 20px;
+    font-size: 18px;
+    
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    min-height: 80px;
+    
+    color: black;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    
+    background: var(--bg);
+    transition: 0.2s;
+}
+
+
+  }
 
 
 

@@ -40,10 +40,10 @@ const Cart = () => {
     </div>
     <div className='cart-details'>
     <h2>Cart Total</h2>
-        <div className="cart-subtotal-container">SubTotal: ${getTotalAmount()}</div>
-        <div className="cart-cfee-container">Extra Fee: $5</div>
-        <div className="cart-quantity-container">Quantity: {getQuantity() || 0}</div>
-        <div className="cart-total-container">Total: ${getTotalAmount()+5}</div>
+        <div className="cart-subtotal-container p1">SubTotal: ${getTotalAmount()}</div>
+        <div className="cart-cfee-container p1">Extra Fee: $5</div>
+        <div className="cart-quantity-container p1">Quantity: {getQuantity() || 0}</div>
+        <div className="cart-total-container p1">Total: ${getTotalAmount()+5}</div>
         
         <button className="checkout-button">Proceed to Checkout</button>
         </div>
