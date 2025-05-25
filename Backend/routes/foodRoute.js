@@ -11,6 +11,7 @@ const foodRouter = express.Router();
 //to store the images 
 const storage = multer.diskStorage({
     // destination:"uploads",
+    //for vercel only
     destination:(req,file,cb)=>{cb(null,'/temp');},
 
     //change the filename arrving to unqiue with datetime and originalname
