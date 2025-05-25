@@ -11,8 +11,8 @@ const StoreContextProvider = (props) =>{
     const [cartItems,setCartItems] = useState({})
     const [token,setToken] = useState("")
     const [foodList,setFoodList] = useState([])
-
-    const url = 'http://localhost:3000'
+    // 'http://localhost:3000' 
+    const url = 'https://canteen-website-teal.vercel.app';
 
     const addToCart =async (itemId)=>{
         
