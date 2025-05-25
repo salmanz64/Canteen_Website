@@ -8,7 +8,7 @@ import cartRouter from "./routes/cartRoute.js";
 import orderRouter from "./routes/orderRoute.js";
 //app config
 const app = express()
-const  port = 3000;
+// const  port = 3000;
 
 
 app.use(express.json())
@@ -30,6 +30,8 @@ app.get('/',(req,res)=>{
     res.send("APi working")
 })
 
-app.listen(port,()=>{
-    console.log(`Server Started on http://localhost:${port}`)
-})
+// app.listen(port,()=>{
+//     console.log(`Server Started on http://localhost:${port}`)
+// })
+
+export default app;
